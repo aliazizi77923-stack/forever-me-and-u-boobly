@@ -445,7 +445,7 @@ export default function AnniversaryGallerySite() {
     {[1, 2, 3].map((id) => (
       <div key={id} className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
         <video
-          src={`/videos/${id}.mp4`}
+          src={`/Videos/${id}.mp4`}
           controls
           className="w-full h-full object-cover"
         />
