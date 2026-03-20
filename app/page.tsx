@@ -442,8 +442,8 @@ export default function AnniversaryGallerySite() {
   </div>
 
   <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-    {[1,2,3].map((id) => (
-      <div key={id} className="overflow-hidden rounded-2xl border border-white/10">
+    {[1, 2, 3].map((id) => (
+      <div key={id} className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
         <video
           src={`/videos/${id}.mp4`}
           controls
