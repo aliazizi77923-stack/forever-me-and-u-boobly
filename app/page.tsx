@@ -304,21 +304,6 @@ export default function AnniversaryGallerySite() {
   className="mt-4 text-2xl sm:text-4xl text-rose-100/80"
 >
   Forever Together ✨
-</p>
-            <div className="mx-auto mt-8 max-w-3xl">
-              <div className="relative overflow-hidden rounded-[2rem] border border-rose-100/25 shadow-2xl shadow-rose-900/30 ring-1 ring-white/10">
-                <img
-                  src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=60"
-                  alt="Forever Hintergrund"
-                  className="h-[180px] w-full object-cover brightness-[0.9] contrast-[1.08] saturate-[1.05] sm:h-[220px]"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-black/10 to-black/20" />
-                <div className="absolute inset-0 bg-rose-200/10" />
-                <div className="absolute inset-0 flex items-center justify-center px-4">
-                  
-                </div>
-              </div>
-            </div>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/80 sm:text-xl">
               Mit dir fühlt sich alles einfach schöner an. Jeder Moment mit dir bedeutet mir mehr, als ich in Worte fassen kann. ❤️
