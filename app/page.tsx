@@ -304,7 +304,7 @@ export default function AnniversaryGallerySite() {
   className="mt-4 text-2xl sm:text-4xl text-rose-100/80"
 >
   Forever Together ✨
-
+</p>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/80 sm:text-xl">
               Mit dir fühlt sich alles einfach schöner an. Jeder Moment mit dir bedeutet mir mehr, als ich in Worte fassen kann. ❤️
             </p>
@@ -319,7 +319,7 @@ export default function AnniversaryGallerySite() {
                 className="order-2 lg:order-1"
               >
                 <div className="inline-flex rounded-full border border-rose-200/20 bg-rose-300/10 px-4 py-2 text-sm text-rose-100">
-                  Für meinen Lieblingsmenschen
+                  Für mein Lieblingsmensch
                 </div>
                 <h2 className="mt-6 text-3xl font-semibold text-rose-50 sm:text-5xl">
                   Unsere Liebe, unsere kleine Welt ✨
