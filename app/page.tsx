@@ -315,23 +315,7 @@ export default function AnniversaryGallerySite() {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-black/10 to-black/20" />
                 <div className="absolute inset-0 bg-rose-200/10" />
                 <div className="absolute inset-0 flex items-center justify-center px-4">
-                  <span
-                    style={{
-                      fontFamily: "Great Vibes, cursive",
-                      WebkitBackgroundClip: "text",
-                      color: "transparent",
-                      backgroundImage:
-                        "url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=60')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      fontSize: "clamp(4.4rem, 11vw, 7rem)",
-                      filter: "drop-shadow(0 0 10px rgba(255,255,255,0.35)) drop-shadow(0 0 22px rgba(255,182,193,0.18))",
-                      letterSpacing: "0.02em",
-                    }}
-                    className="leading-none"
-                  >
-                    Forever
-                  </span>
+                  
                 </div>
               </div>
             </div>
