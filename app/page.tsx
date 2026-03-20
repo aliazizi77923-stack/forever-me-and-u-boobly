@@ -191,7 +191,8 @@ export default function AnniversaryGallerySite() {
   return (
     <div
       onClick={handlePageClick}
-      className="relative min-h-screen overflow-x-hidden bg-[#120915] px-4 text-white sm:px-6"
+      className="relative min-h-screen overflow-x-hidden bg-gradient-to-b from-[#1a0d1f] via-[#2a1230] to-[#120915]
+       px-4 text-white sm:px-6"
     >
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&family=Dancing+Script:wght@500;700&display=swap');
@@ -298,7 +299,12 @@ export default function AnniversaryGallerySite() {
             >
               Unser Jahrestag
             </h1>
-
+<p
+  style={{ fontFamily: "Great Vibes, cursive" }}
+  className="mt-4 text-2xl sm:text-4xl text-rose-100/80"
+>
+  Forever Together ✨
+</p>
             <div className="mx-auto mt-8 max-w-3xl">
               <div className="relative overflow-hidden rounded-[2rem] border border-rose-100/25 shadow-2xl shadow-rose-900/30 ring-1 ring-white/10">
                 <img
