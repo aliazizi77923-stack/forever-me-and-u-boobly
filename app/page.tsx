@@ -335,15 +335,7 @@ export default function AnniversaryGallerySite() {
                 viewport={{ once: true }}
                 className="order-1 lg:order-2"
               >
-                <div className="overflow-hidden rounded-[2rem] border border-rose-200/15 bg-white/5 p-3 shadow-2xl backdrop-blur-xl">
-                  <motion.img
-                    src={memories[0].image}
-                    alt={memories[0].title}
-                    className="h-[420px] w-full rounded-[1.5rem] object-cover sm:h-[520px]"
-                    animate={{ y: [0, -10, 0], scale: [1, 1.02, 1] }}
-                    transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                  />
-                </div>
+           
               </motion.div>
             </section>
 
